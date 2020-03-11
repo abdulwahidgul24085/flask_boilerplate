@@ -11,7 +11,7 @@ The root of the project has a config file. This contains all the config availabl
 ## Database
 The database contains the ORM which is SqlAlchmey based, and migration tool. In the config file we have `SQLALCHEMY_TRACK_MODIFICATIONS` set to `False`. The reason for this that it signal the application everything the database changes. This puts a lot stress on the system.
 
-### Migration
+## Migration
 Migration is great tool for version your database. It also help you in moving you database between servers. You would need the following commands to work with flask migrate
 
 `flask db init` This Initates the db in the project.
