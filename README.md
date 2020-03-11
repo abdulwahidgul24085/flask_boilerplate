@@ -28,6 +28,6 @@ Migration is great tool for version your database. It also help you in moving yo
 ## Login
 THe login section uses the flask-login module. In the route login function. It contains the `next_page` login. This basic coverts 3 scenarios.
 
-..* The user came straight at the login page, and the next variable does not have argument. Then the user will be routed to the index page
-..* The user has come in at some other page of the app, and since they aren't logged in or authorized. They have to login first. On successful login they routed to the inital page. The next contains the url without the domain part.
-..* The user is in the same state as the pervious explaination. But this time the next_page var has the full url. In this case the users will be routed to the index page.
+* The user came straight at the login page, and the next variable does not have argument. Then the user will be routed to the index page
+* The user has come in at some other page of the app, and since they aren't logged in or authorized. They have to login first. On successful login they routed to the inital page. The next contains the url without the domain part.
+* The user is in the same state as the pervious explaination. But this time the next_page var has the full url. In this case the users will be routed to the index page.
