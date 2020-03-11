@@ -14,7 +14,10 @@ The database contains the ORM which is SqlAlchmey based, and migration tool. In 
 ### Migration
 Migration is great tool for version your database. It also help you in moving you database between servers. You would need the following commands to work with flask migrate
 
-`flask db init` This Initates the db in the project
+`flask db init` This Initates the db in the project.
+
 `flask db migrate -m "first commit"` this creates the migration.
+
 `flask db upgrade` This commits the transation. After this step you can see the changes in your database.
+
 `flask db downgrade` This roles back your latest changes. This is incase if you want to change your database in to the last stable stage.
